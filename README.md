@@ -26,13 +26,13 @@ allprojects {
 And the POIA dependency itself:
 
 ```groovy
-implementation "com.github.SUPERCILEX.poi-android:poi:$poiVersion"
+implementation "com.github.KiwanPark.poi-android:poi:$poiVersion"
 ```
 
 If you're using proguard, also add:
 
 ```groovy
-implementation "com.github.SUPERCILEX.poi-android:proguard:$poiVersion"
+implementation "com.github.KiwanPark.poi-android:proguard:$poiVersion"
 ```
 
 If you want source code and documentation, add the real Apache POI dependency as `compileOnly`:
